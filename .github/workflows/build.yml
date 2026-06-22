@@ -1,9 +1,6 @@
-name: "Publish release to PyPI"
+name: "Build"
 
-on:
-  push:
-    tags:
-      - v*
+on: push
 
 jobs:
   run:
@@ -32,9 +29,3 @@ jobs:
         run: uv python install 3.11
       - name: Build
         run: uv build
-      - name: Smoke test (wheel)
-        run: uv run --isolated --no-project --with dist/*.whl tests/smoke_test.py
-      - name: Smoke test (source distribution)
-        run: uv run --isolated --no-project --with dist/*.tar.gz tests/smoke_test.py
-      - name: Publish
-        run: uv publish

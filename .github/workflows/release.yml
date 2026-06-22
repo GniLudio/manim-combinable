@@ -7,13 +7,23 @@ on:
 
 jobs:
   run:
-    runs-on: manimcommunity/manim:latest
-    environment:
-      name: pypi
-    permissions:
-      id-token: write
-      contents: read
+    runs-on: ubuntu-latest
     steps:
+      - name: Install System Dependencies
+        run: |
+          sudo apt-get update -qq \
+          && sudo apt-get install --no-install-recommends -y \
+              build-essential \
+              gcc \
+              cmake \
+              make \
+              pkg-config \
+              wget \
+              libcairo2-dev \
+              libffi-dev \
+              libpango1.0-dev \
+              libegl-dev \
+          && sudo rm -rf /var/lib/apt/lists/* # Fixed: added 'sudo' to all commands
       - name: Checkout
         uses: actions/checkout@v6
       - name: Install uv

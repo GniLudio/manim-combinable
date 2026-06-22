@@ -27,7 +27,6 @@
 * [x] Shift
 
 ## Just use Manim
-> For these, just use Manim's animations.
 
 * [x] Add
 * [x] Animation
@@ -39,6 +38,7 @@
 * [x] Wait
 
 ## Coming Soon
+
 * [ ] AddTextLetterByLetter
 * [ ] AddTextWordByWord
 * [ ] AnimatedBoundary
@@ -99,4 +99,5 @@
 * [ ] Write
 
 ## Not Planned
+
 * [ ] Rotating

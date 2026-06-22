@@ -24,7 +24,7 @@ class ScaleRotateAndFadeToColor(Scene):
         )
 ```
 
-https://github.com/user-attachments/assets/5feba7c7-13e6-46e2-b470-fcf77995ce37
+<video src="https://github.com/user-attachments/assets/5feba7c7-13e6-46e2-b470-fcf77995ce37"></video>
 
 ## How it works
 
@@ -55,7 +55,7 @@ class FlattenExample(Scene):
             Flatten(tex_2, lambda l: SetColor(l, GREY)),
         )
 ```
-https://github.com/user-attachments/assets/6b2ceae8-91ae-4c4b-b57c-317c8e0c5db4
+<video src="https://github.com/user-attachments/assets/6b2ceae8-91ae-4c4b-b57c-317c8e0c5db4"></video>
 
 ## Stuttering Movement
 

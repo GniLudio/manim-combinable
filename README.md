@@ -35,7 +35,7 @@ The animations are combinable due to the following behavior restrictions:
 ## API Changes
 
 * All animation constructors are drop-in-replacements.
-    * if not: please create an issue
+    * if not: please create an [issue](https://github.com/GniLudio/manim-combinable/issues)
     * see [Comparisons](./docs/comparisons.md)
 * Fields and method can differ to Manim's non-combinable animations.
 

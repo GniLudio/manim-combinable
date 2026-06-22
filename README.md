@@ -4,6 +4,11 @@ Makes manim animations combinable.
 * [Progress Tracker](./docs/progress_tracker.md)
 * [Examples](./docs/examples.md)
 
+## Installation
+```console
+pip install manim-combinable
+```
+
 ## Usage
 ```py
 from manim import *

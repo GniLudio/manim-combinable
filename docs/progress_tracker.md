@@ -51,7 +51,6 @@
 * [x] ~~LaggedStartMap~~
 * [ ] MaintainPositionRelativeTo
 * [x] MoveAlongPath
-* [x] MoveTo (New)
 * [ ] MoveToTarget
 * [ ] PhaseFlow
 * [ ] RemoveTextLetterByLetter
@@ -59,6 +58,7 @@
 * [ ] Restore
 * [x] Rotate
 * [ ] ~~Rotating~~
+* [x] ScaleInPlace
 * [ ] ShowIncreasingSubsets
 * [ ] ShowPartial
 * [ ] ShowPassingFlash
@@ -89,12 +89,12 @@
 
 ## New
 
+* [x] MoveTo (New)
 * [x] Scale (New)
-* [x] ScaleInPlace
 * [x] SetColor (New)
 * [x] SetFillColor (New)
 * [x] SetFillOpacity (New)
 * [x] SetOpacity (New)
 * [x] SetStrokeColor (New)
-* [x] SetStroleOpacity (New)
+* [x] SetStrokeOpacity (New)
 * [x] Shift (New)

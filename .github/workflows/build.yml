@@ -1,11 +1,10 @@
 name: "Build"
 
-on:
-  push:
+on: push
 
 jobs:
   run:
-    runs-on: ubuntu:latest
+    runs-on: ubuntu-latest
     steps:
       - name: Install System Dependencies
         run: |

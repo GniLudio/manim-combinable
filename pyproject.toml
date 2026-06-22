@@ -1,0 +1,76 @@
+[project]
+name = "manim-combinable"
+version = "0.1.0"
+description = "Combinable animations for manim."
+readme = "README.md"
+authors = [
+    { name = "GniLudio", email = "ferdinand.rohlfing@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "manim==0.20.1",
+    "typing-extensions>=4.15.0",
+]
+
+[build-system]
+requires = ["uv_build>=0.11.7,<0.12.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "ruff>=0.15.18",
+]
+
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.lint]
+select = [
+    "ANN",
+    "FBT",
+    "B",
+    "A",
+    "COM",
+    "C4",
+    "ISC",
+    "ICN",
+    "INP",
+    "PIE",
+    "PYI",
+    "Q",
+    "RET",
+    "SLF",
+    "SIM",
+    "TID",
+    "TC",
+    "ARG",
+    "PTH",
+    "FLY",
+    "I",
+    "C90",
+    "NPY",
+    "N",
+    "PERF",
+    "E",
+    "W",
+    "F",
+    "PL",
+    "PLE",
+    "PLR",
+    "PLW",
+    "UP",
+    "FURB",
+    "RUF",
+]
+ignore = [
+    "ANN401",
+    "ARG002",
+    "PLW0108",
+    "COM812",
+    "FBT001",
+    "FBT002",
+]
+
+
+[tool.ruff.lint.pylint]
+max-args = 10

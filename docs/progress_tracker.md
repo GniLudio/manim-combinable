@@ -1,20 +1,47 @@
 # Progress Tracker
 
-## Legend
-
-* [x] Implemented
-* [ ] Coming Soon
-* [x] ~~Just use Manim~~
-* [ ] ~~Not Planned~~
 
 ## Imlemented
 
-* [x] ~~Add~~
+* [x] ChangeDecimalToValue
+* [x] ChangingDecimal
+* [x] FadeIn
+* [x] FadeOut
+* [x] FadeToColor 
+* [x] Indicate
+* [x] MoveAlongPath
+* [x] Rotate
+* [x] ScaleInPlace
+* [x] ShrinkToCenter
+
+## New
+
+* [x] MoveTo
+* [x] Scale
+* [x] SetColor
+* [x] SetFillColor
+* [x] SetFillOpacity
+* [x] SetOpacity
+* [x] SetStrokeColor
+* [x] SetStrokeOpacity
+* [x] Shift
+
+## Just use Manim
+> For these, just use Manim's animations.
+
+* [x] Add
+* [x] Animation
+* [x] AnimationGroup
+* [x] ChangeSpeed
+* [x] LaggedStart
+* [x] LaggedStartMap
+* [x] Succession
+* [x] Wait
+
+## Coming Soon
 * [ ] AddTextLetterByLetter
 * [ ] AddTextWordByWord
 * [ ] AnimatedBoundary
-* [x] ~~Animation~~
-* [x] ~~AnimationGroup~~
 * [ ] ApplyComplexFunction
 * [ ] ApplyFunction
 * [ ] ApplyMatrix
@@ -24,9 +51,6 @@
 * [ ] ApplyWave
 * [ ] Blink
 * [ ] Broadcast
-* [x] ChangeDecimalToValue
-* [x] ~~ChangeSpeed~~
-* [x] ChangingDecimal
 * [ ] Circumscribe
 * [ ] ClockwiseTransform
 * [ ] ComplexHomotopy
@@ -34,9 +58,6 @@
 * [ ] Create
 * [ ] CyclicReplace
 * [ ] DrawBorderThenFill
-* [x] FadeIn
-* [x] FadeOut
-* [x] FadeToColor 
 * [ ] FadeTransform
 * [ ] FadeTransformPieces
 * [ ] Flash
@@ -46,29 +67,20 @@
 * [ ] GrowFromEdge
 * [ ] GrowFromPoint
 * [ ] Homotopy
-* [x] Indicate
-* [x] ~~LaggedStart~~
-* [x] ~~LaggedStartMap~~
 * [ ] MaintainPositionRelativeTo
-* [x] MoveAlongPath
 * [ ] MoveToTarget
 * [ ] PhaseFlow
 * [ ] RemoveTextLetterByLetter
 * [ ] ReplacementTransform
 * [ ] Restore
-* [x] Rotate
-* [ ] ~~Rotating~~
-* [x] ScaleInPlace
 * [ ] ShowIncreasingSubsets
 * [ ] ShowPartial
 * [ ] ShowPassingFlash
 * [ ] ShowPassingFlashWithThinningStrokeWidth
 * [ ] ShowSubmobjectsOneByOne
-* [x] ShrinkToCenter
 * [ ] SmoothedVectorizedHomotopy
 * [ ] SpinInFromNothing
 * [ ] SpiralIn
-* [x] ~~Succession~~
 * [ ] Swap
 * [ ] TracedPath
 * [ ] Transform
@@ -83,18 +95,8 @@
 * [ ] Unwrite
 * [ ] UpdateFromAlphaFunc
 * [ ] UpdateFromFunc
-* [x] ~~Wait~~
 * [ ] Wiggle
 * [ ] Write
 
-## New
-
-* [x] MoveTo (New)
-* [x] Scale (New)
-* [x] SetColor (New)
-* [x] SetFillColor (New)
-* [x] SetFillOpacity (New)
-* [x] SetOpacity (New)
-* [x] SetStrokeColor (New)
-* [x] SetStrokeOpacity (New)
-* [x] Shift (New)
+## Not Planned
+* [ ] Rotating

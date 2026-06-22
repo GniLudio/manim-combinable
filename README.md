@@ -59,7 +59,8 @@ class FlattenExample(Scene):
 
 ## Stuttering Movement
 
-When you transform a mobject while translating it, the movement sometimes stutters. That stems from the fact that (most) translations rely on the objects center, which is influenced by the objects bounding box.
+When you transform a mobject while translating it, the movement sometimes stutters.  
+That stems from the fact that (most) translations rely on the objects center, which is influenced by the objects bounding box.
 
 
 One way to circumvent this is adding a wrapper (e.g. a circle or square) around the object, on which you then apply the translation.
